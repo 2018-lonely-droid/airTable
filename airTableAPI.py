@@ -72,16 +72,13 @@ def getBase(baseName, baseId):
 
 
 def main():
-    # Alliance CRM
-    baseName = ['Organizations', 'Outreach', 'Tasks', 'Programs', 'Sponsorships', 'tbll4cuWsCAXNBAbP',
-                'Relationship Owner(s)', '2021 Benefits', '2020 Benefits', '2019 Benefits', '2019 Revenue Tracker']
+    # Base 1
+    baseName = ['X', 'Y', 'Z']
     baseId = 'appwaKZAEZXGumbJB'
     getBase(baseName, baseId)
 
-    # Alliance Events Management
-    baseName = ['Events', 'tblNBBcIQnoRrq3h8', 'Capacity', 'Content', 'tblDfZZdRG7zpecGF', 'Funders', 'Affiliation',
-                'Program Planning', 'Program Planning 2', 'Resources', 'Outreach', 'Topics', 'Mentions', 'Inquiries',
-                'Venues', 'Vendors']
+    # Base 2
+    baseName = ['X', 'Y', 'Z']
     baseId = 'appIyA2lrGGZ2XaWt'
     getBase(baseName, baseId)
 
